@@ -1,0 +1,23 @@
+optics:
+  dx: 8.0e-6     # pixel pitch (m)
+  lam: 5.32e-7   # wavelength (m) ~ 532 nm
+  z:  0.02       # propagation distance (m)
+
+model:
+  N: 32
+  hidden: 128
+
+train:
+  batch_size: 128
+  lr: 2.0e-3
+  wd: 0.0
+  epochs: 8
+
+coherence:
+  K: 1          # 1 = fully coherent; >1 enables partial coherence averaging
+  corr_px: 3.0  # correlation length (pixels) for phase screen
+
+noise:
+  shot_scale: 0.0   # 0 disables shot noise; try 50, 100, 500...
+  read_sigma: 0.0   # Gaussian readout std; try 0.01
+  quant_bits: null  # null or 8/6/4
