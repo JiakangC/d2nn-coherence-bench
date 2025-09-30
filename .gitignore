@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PyTorch / training artifacts
+checkpoints/
+runs/
+**/checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Reports & figures (keep CSVs, ignore large images by default)
+reports/figures/
+# If you WANT to keep figures, comment the line above and instead ignore only big ones:
+# reports/figures/*.png
+# reports/figures/*.pdf
+
+# Datasets / caches
+data/
+.data/
+~$*

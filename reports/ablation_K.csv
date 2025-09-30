@@ -1,0 +1,5 @@
+experiment,param_name,param_value,test_acc
+K_sweep,K,1,0.9770
+K_sweep,K,2,0.9780
+K_sweep,K,4,0.9777
+K_sweep,K,8,0.9775

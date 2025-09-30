@@ -1,0 +1,5 @@
+experiment,param_name,param_value,test_acc
+bits_sweep,quant_bits,null,0.9779
+bits_sweep,quant_bits,8,0.9511
+bits_sweep,quant_bits,6,0.9554
+bits_sweep,quant_bits,4,0.9515

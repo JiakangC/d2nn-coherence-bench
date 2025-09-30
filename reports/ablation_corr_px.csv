@@ -1,0 +1,5 @@
+experiment,param_name,param_value,test_acc
+corr_sweep,corr_px,2.0,0.9765
+corr_sweep,corr_px,3.0,0.9757
+corr_sweep,corr_px,4.0,0.9756
+corr_sweep,corr_px,6.0,0.9781
