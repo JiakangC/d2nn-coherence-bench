@@ -11,7 +11,7 @@ train:
   batch_size: 128
   lr: 2.0e-3
   wd: 0.0
-  epochs: 8
+  epochs: 15
 
 coherence:
   K: 1          # 1 = fully coherent; >1 enables partial coherence averaging

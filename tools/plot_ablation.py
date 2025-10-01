@@ -46,6 +46,6 @@ def main(path, out_path):
     plt.close()
 
 if __name__ == "__main__":
-    in_csv = sys.argv[1] if len(sys.argv) > 1 else "reports/ablation_bits.csv"
-    out_png = sys.argv[2] if len(sys.argv) > 2 else "reports/figures/ablation_bits.png"
+    in_csv = sys.argv[1] if len(sys.argv) > 1 else "reports/ablation_corr_px.csv"
+    out_png = sys.argv[2] if len(sys.argv) > 2 else "reports/figures/ablation_corr_px.png"
     main(in_csv, out_png)

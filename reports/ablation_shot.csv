@@ -1,4 +1,5 @@
 experiment,param_name,param_value,test_acc
-shot_sweep,shot_scale,500,0.9532
-shot_sweep,shot_scale,100,0.9501
-shot_sweep,shot_scale,50,0.9489
+shot_sweep,shot_scale,2000,0.9473
+shot_sweep,shot_scale,1000,0.9532
+shot_sweep,shot_scale,500,0.9487
+shot_sweep,shot_scale,100,0.9486

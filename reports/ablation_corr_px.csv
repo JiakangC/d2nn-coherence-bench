@@ -1,5 +1,5 @@
 experiment,param_name,param_value,test_acc
-corr_sweep,corr_px,2.0,0.9765
-corr_sweep,corr_px,3.0,0.9757
-corr_sweep,corr_px,4.0,0.9756
-corr_sweep,corr_px,6.0,0.9781
+corr_sweep,corr_px,0.5,0.9691
+corr_sweep,corr_px,1.0,0.9769
+corr_sweep,corr_px,1.5,0.9773
+corr_sweep,corr_px,2.0,0.9763

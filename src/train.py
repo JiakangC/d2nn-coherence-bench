@@ -15,6 +15,7 @@ from .optics.noise import apply_shot_noise, apply_readout_noise, quantize
 from tools.logger import CSVLogger
 from .vis import save_phase_mask, save_intensity_grid
 
+torch.manual_seed(123); torch.cuda.manual_seed_all(123)
 
 def get_data(N: int, batch_size: int):
     """
